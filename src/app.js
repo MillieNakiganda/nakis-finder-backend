@@ -1,3 +1,4 @@
-const add = (a, b) => a+b;
-
-module.exports = {add};
+// eslint-disable-next-line func-names
+module.exports = function(){
+    return 'hello';
+}
